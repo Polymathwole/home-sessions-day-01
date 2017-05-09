@@ -22,7 +22,7 @@ const dataTypes=(argument)=>
         }
     else if (typeof argument==="function")
         {
-            return argument(true)
+            return argument(true);
         }
 }
 
